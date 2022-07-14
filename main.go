@@ -51,7 +51,7 @@ func create_github_PR_request() error {
 
 // 	get_request.Header.Set("Accept", "application/vnd.github+json")
 // 	// TODO remove token
-// 	get_request.Header.Set("Authorization", "token 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")
+// 	get_request.Header.Set("Authorization", "token ***")
 
 // 	post_response, error := http.DefaultClient.Do(get_request)
 // 	if error != nil {
@@ -216,7 +216,7 @@ func main() {
 // 		panic(error.Error())
 // 	}
 // 	// TODO: remove token
-// 	post_request.Header.Set("Authorization", "token "+ "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")
+// 	post_request.Header.Set("Authorization", "token "+ "***")
 
 // 	post_response, error := http.DefaultClient.Do(post_request)
 // 	if error != nil {
